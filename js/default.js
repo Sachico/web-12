@@ -1,17 +1,13 @@
-for (var i = 1; i < 101; ++i) {
 
-    if (i % 15 == 0) {
-        a.push('fizzbuzz');
-    } else if (i % 3 == 0) {
-        a.push('fizz')
-    } else if (i % 5 == 0) {
-        a.push('buzz');
-    } else {
-        a.push(i);
-    }
-
-}
-
+for (var i = 1; i <= 100; i++) {
+  if (i % 3 == 0 && i % 5 == 0) 
+    document.write("Fizz,Buzz<br>");
+  else if (i % 3 == 0)
+    document.write("Fizz<br>");
+  else if (i % 5 == 0)
+    document.write("Buzz<br>");
+  else 
+    document.write(i + "<br>");
  
 var li =document.createElement('li');
 li.textContent =i + '回目';
