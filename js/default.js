@@ -1,10 +1,18 @@
-for(var i=1; i< 100; i++){array[i] = i; 
-      if(array[i] % 15 === 0) 
-        array.splice(i, 1 , ["FizzBuzz"]); 
-      else if (array[i] % 5 === 0) 
-        array.splice(i, 1 , ["Buzz"]); 
-      else if (array[i] % 3 === 0) 
-        array.splice(i, 1 , ["Fizz"]);
+for(for (var i = 1; i < 101; ++i) {
+
+    if (i % 15 == 0) {
+        a.push('fizzbuzz');
+    } else if (i % 3 == 0) {
+        a.push('fizz')
+    } else if (i % 5 == 0) {
+        a.push('buzz');
+    } else {
+        a.push(i);
+    }
+
+}
+
+console.log(a);
  
 var li =document.createElement('li');
 li.textContent =i + '回目';
