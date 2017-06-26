@@ -1,7 +1,11 @@
-function FizzBuzz (qiita) {
- var i;
- for (i = 1; i <= qiita; i++) {
-  alert(i % 3 == 0 ? (i % 5 == 0 ? 'FizzBuzz' : 'Fizz') : (i % 5 == 0 ? 'Buzz' : i));
- }
+for(var i = 1; i <= qiita; i++){
+
+var li =document.createElement('li);
+li.textContent ='アイテム';
+document.getElementById('list').appendChild(li);
+document.getElementById('form').onsubmit = function(){
+ window.alert('押されました！');};
 }
+
+
 
